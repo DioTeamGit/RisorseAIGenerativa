@@ -20,6 +20,26 @@
 
 - [Timeline dell'AI Generativa su X](https://x.com/chiefaioffice/status/1640781377833410564/) - Timeline
 
+# Strumenti per sviluppatori
+
+- **[co:here](https://cohere.com)** - Cohere fornisce accesso a modelli linguistici di grandi dimensioni avanzati e strumenti NLP.
+- **[V0](https://vercel.com)** - vercel
+- **[Bolt](https://stackblitz.com)** - stackblitz
+- **[Claude con artifacts](https://www.anthropic.com/index/introducing-claude)** - Claude con artifacts
+- **[Haystack](https://haystack.deepset.ai/)** - Un framework per la creazione di applicazioni NLP (ad es. agenti, ricerca semantica, question-answering) con modelli linguistici.
+- **[LangChain](https://www.langchain.com/)** - Un framework per lo sviluppo di applicazioni basate su modelli linguistici.
+- **[gpt4all](https://gpt4all.io/index.html)** - Un chatbot addestrato su una vasta collezione di dati di assistenza puliti, inclusi codice, storie e dialoghi.
+- **[LLM App](https://github.com/kraken-hpc/llm-app)** - Libreria Python open-source per costruire pipeline di dati in tempo reale abilitate ai LLM.
+- **[LMQL](https://lmql.ai/)** - LMQL è un linguaggio di query per grandi modelli linguistici.
+- **[LlamaIndex](https://www.llamaindex.ai/)** - Un framework di dati per la costruzione di applicazioni LLM su dati esterni.
+- **[Phoenix](https://arize.com/phoenix/)** - Strumento open-source per l'osservabilità del ML che funziona nel tuo ambiente notebook, sviluppato da Arize. Monitora e affina modelli LLM, CV e tabulari.
+- **[Cursor](https://www.cursor.so/)** - Cursor è l'IDE del futuro, costruito per il pair-programming con una potente IA.
+- **[SymbolicAI](https://symbolic.ai/)** - Un framework neuro-simbolico per la creazione di applicazioni con LLM al centro.
+- **[Ollama](https://ollama.com/)** - Avvia e utilizza modelli linguistici di grandi dimensioni in locale.
+- **[Vanna.ai](https://github.com/vanna-ai/vanna)** - Un framework Python RAG open-source per la generazione di SQL e funzionalità correlate. #opensource
+- **[Hugging Face](https://huggingface.co/)** - Una piattaforma leader per modelli di machine learning, linguistici e strumenti di intelligenza artificiale.
+
+
 
 
 

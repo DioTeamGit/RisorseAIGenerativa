@@ -15,6 +15,18 @@
 - [Word2Vec Illustrato](https://jalammar.github.io/illustrated-word2vec/) - Spiegazione visiva di Jay Alammar su Word2Vec.
 - [Panoramica sul Funzionamento degli LLM](https://bbycroft.net/llm) - Visualizzazione passo passo delle operazioni che fa un LLM
 
+## Esperimenti interattivi
+
+- [Human or Not](https://app.humanornot.ai/) - Chatta con un altro utente e rispondi se è umano o meno
+
+## Calcolatore costi LLM
+
+- [Cost Calculator LLM](https://huggingface.co/spaces/philschmid/llm-pricing) - Tabella con costi dei più importanti LLM
+
+## Valutazione performance LLM
+
+- [Leaderboard Chatbot arena](https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard) - Dati due contenuti, gli utenti valutano se un output è meglio dell'altro.
+- [Riassunto di tutti i benchmark](https://huggingface.co/collections/open-llm-leaderboard/the-big-benchmarks-collection-64faca6335a7fc7d4ffe974a) - Collezione di benchmark per LLM
 
 ## Le timeline dell'AI Generativa
 
@@ -38,6 +50,8 @@
 - **[Ollama](https://ollama.com/)** - Avvia e utilizza modelli linguistici di grandi dimensioni in locale.
 - **[Vanna.ai](https://github.com/vanna-ai/vanna)** - Un framework Python RAG open-source per la generazione di SQL e funzionalità correlate. #opensource
 - **[Hugging Face](https://huggingface.co/)** - Una piattaforma leader per modelli di machine learning, linguistici e strumenti di intelligenza artificiale.
+
+
 
 
 

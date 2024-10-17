@@ -14,6 +14,7 @@
 - [Pathways Language Model (PaLM)](https://research.google) - Scalabilità fino a 540 miliardi di parametri per progressi rivoluzionari.
 - [Word2Vec Illustrato](https://jalammar.github.io/illustrated-word2vec/) - Spiegazione visiva di Jay Alammar su Word2Vec.
 - [Panoramica sul Funzionamento degli LLM](https://bbycroft.net/llm) - Visualizzazione passo passo delle operazioni che fa un LLM
+- [Visualizzazione LLM](https://ig.ft.com/generative-ai/) - Visualizzazione passo passo di come funziona un LLM: previsione parola successiva e esempi testuali interattivi
 
 ## Esperimenti interattivi
 

@@ -1,0 +1,99 @@
+Claude Sonnet 3.5 Artifacts support six main types:
+1. code snippets,
+2. markdown documents,
+3. HTML pages,
+4. SVG images,
+5. Mermaid diagrams,
+6. React components.
+
+Here are the details about all 6 types with some general details about Artifacts ... 
+
+1. Code Snippets (application/vnd.ant.code)
+
+- Purpose: For sharing code in any programming language
+- Usage:
+  - Specify the language using the `language` attribute
+  - Do not use triple backticks within the artifact
+- Examples of languages: Python, JavaScript, Java, C++, Ruby, React etc.
+- External scripts can only be imported from cloudflare
+
+2. Documents (text/markdown)
+
+- Purpose: For longer text content or formatted documents
+- Supports:
+  - Plain text
+  - Markdown formatting (headers, lists, links, etc.)
+
+3. HTML Pages (text/html)
+
+- Purpose: For creating renderable web pages
+- Features:
+  - Can include HTML, CSS, and JavaScript in a single file
+  - Will be rendered as a webpage in the user interface
+- Limitations:
+  - External scripts can only be imported from cdn of cloudflare
+  - Cannot use external images
+- Placeholder images:
+  - Use `/api/placeholder/width/height` format
+  - Example: `<img src="/api/placeholder/400/320" alt="placeholder" />`
+
+ 4. SVG Images (image/svg+xml)
+
+- Purpose: For creating vector graphics
+- Features:
+  - Scalable graphics that can be rendered in the user interface
+  - Should specify the viewBox rather than width/height
+
+5. Mermaid Diagrams (application/vnd.ant.mermaid)
+
+- Purpose: For creating various types of diagrams
+- Supports diagram types like:
+  - Flowcharts
+  - Sequence diagrams
+  - Gantt charts
+  - Entity Relationship Diagrams (ERD)
+  - User Journey Diagrams
+- Best for:
+  - Visualizing processes
+  - Showing relationships between entities
+  - Timelines or schedules
+
+ 6. React Components (application/vnd.ant.react)
+
+- Purpose: For creating interactive UI components
+- Can include:
+  - React elements (e.g., `<strong>Hello World!</strong>`)
+  - Pure functional components
+  - Functional components with Hooks
+  - React component classes
+- Available libraries:
+  - Base React (including Hooks)
+  - lucide-react@0.263.1 for icons
+  - recharts for creating charts
+  - Prebuilt components from shadcn/ui library
+- Styling:
+  - Use Tailwind classes (avoid arbitrary values like `h-[600px]`)
+- Limitations:
+  - Cannot import libraries other than those mentioned
+  - Cannot use external images (use placeholders instead)
+
+ General Guidelines for Artifacts
+
+1. Content Suitability:
+   - Should be substantial (typically >15 lines)
+   - Self-contained and understandable without conversation context
+   - Likely to be modified, reused, or referenced multiple times
+
+2. When Not to Use Artifacts:
+   - For simple, short, or primarily explanatory content
+   - For content highly dependent on conversation context
+   - For one-off questions or examples
+
+3. Usage Notes:
+   - Generally, create one artifact per message unless specifically requested otherwise
+   - Prefer in-line content when possible to maintain conversation flow
+   - Can update existing artifacts using the same identifier to show evolution of content
+
+4. Limitations:
+   - Cannot include external images (except specified placeholders)
+   - Cannot import libraries other than those explicitly mentioned for React components

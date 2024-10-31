@@ -8,6 +8,7 @@
 ## Fine-Tuning e Addestramento dei Modelli
 
 - [Fine-Tuning di Modelli OpenAI](https://platform.openai.com/docs/guides/fine-tuning) - Fine tuning di LLM
+- https://huggingface.co/blog/personal-copilot - FineTuning per il coding
 
 ## Visualizzazioni grafiche e interattive
 

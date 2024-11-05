@@ -38,6 +38,8 @@
 
 - **[co:here](https://cohere.com)** - Cohere fornisce accesso a modelli linguistici di grandi dimensioni avanzati e strumenti NLP.
 - **[V0](https://vercel.com)** - vercel
+- Cursor
+- **[V0](https://github.com/cline/cline)** - Cline - autonomous coding agent that can run app, test and fix bugs.
 - **[Bolt](https://stackblitz.com)** - stackblitz
 - **[Claude con artifacts](https://www.anthropic.com/index/introducing-claude)** - Claude con artifacts
 - **[Haystack](https://haystack.deepset.ai/)** - Un framework per la creazione di applicazioni NLP (ad es. agenti, ricerca semantica, question-answering) con modelli linguistici.

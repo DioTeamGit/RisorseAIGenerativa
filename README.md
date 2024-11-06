@@ -3,6 +3,7 @@
 ## Modelli in locale
 
 - [Unsloth](https://unsloth.ai/) - Fine-tuning di LLM in locale, incluso Llama3.2.
+- [Finetuning](https://www.youtube.com/watch?v=JJWvYQdOVOY) - Fine-tuning LLama3.2 su google colab
 - [NanoGPT](https://github.com/karpathy/nanoGPT) - Un progetto che permette a chiunque di addestrare un modello GPT in locale.
 
 ## Fine-Tuning e Addestramento dei Modelli

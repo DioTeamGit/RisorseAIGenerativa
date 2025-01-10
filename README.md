@@ -3,7 +3,7 @@
 ## Agenti
 
 - https://github.com/corbt/agent.exe - controlla il tuo computer
-- https://github.com/browser-use/web-ui - controlla il tuo pc
+- https://github.com/browser-use/web-ui - controlla il tuo browser
 
 ## Modelli in locale
 

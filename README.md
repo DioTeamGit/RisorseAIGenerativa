@@ -1,5 +1,10 @@
 # Risorse su AI Generativa
 
+## Agenti
+
+- https://github.com/corbt/agent.exe - controlla il tuo computer
+- https://github.com/browser-use/web-ui - controlla il tuo pc
+
 ## Modelli in locale
 
 - [Unsloth](https://unsloth.ai/) - Fine-tuning di LLM in locale, incluso Llama3.2.
